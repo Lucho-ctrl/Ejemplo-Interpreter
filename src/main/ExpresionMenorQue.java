@@ -3,7 +3,6 @@ package main;
 public class ExpresionMenorQue implements Expresion {
     
     private final String nombreVariable;
-    private final int edadMinima = 18;
     private final int valor;
 
     public ExpresionMenorQue(String nombreVariable, int valor) {
